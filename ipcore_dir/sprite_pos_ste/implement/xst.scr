@@ -1,0 +1,13 @@
+run
+-ifmt VHDL
+-ent sprite_pos_top
+-p xc3s250e-cp132-4
+-ifn xst.prj
+-write_timing_constraints No
+-iobuf YES
+-max_fanout 100
+-ofn sprite_pos_top 
+-ofmt NGC
+-bus_delimiter ()
+-hierarchy_separator /
+-case Maintain
